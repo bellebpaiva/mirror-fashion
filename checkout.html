@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Checkout Mirror </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Ótima escolha!</h1>
+            <p>Obrigado por comprar na Mirror Fashion!
+                Preencha seus dados para efetivar a compra. </p>
+        </div> <!-- fim .container dentro do jumbotron-->
+    </div> <!-- fim .jumbotron-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h2>Sua compra</h2>
+                    </div> <!-- fim .card-header-->
+
+
+                    <div class="card-body">
+                        <dl>
+                            <dt>Produto</dt>
+                            <dd>Camiseta Ecko Caveira</dd>
+
+                            <dt>Cor</dt>
+                            <dd>Verde</dd>
+
+                            <dt>Tamanho</dt>
+                            <dd>42</dd>
+
+                            <dt>Preço</dt>
+                            <dd>R$48,95</dd>
+                        </dl>
+                    </div> <!-- fim card-body-->
+                </div> <!-- fim.card -->
+            </div> <!-- fim .col-md-4 -->
+
+            <form class="col-md-8">
+                <div class="row">
+
+                    <fieldset class="col-lg-7">
+                        <legend>Dados pessoais</legend>
+
+                        <div class="form-group">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" class="form-control" id="nome" name="nome" autofocus>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="email@exemplo.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cpf">CPF</label>
+                            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
+                        </div>
+
+                        <div class="form-group custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="newsletter" value="sim" checked>
+                            <label class="custom-control-label" for="newsletter">
+                                Quero receber Newsletter da Mirror Fashion
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <div class="col-lg-5">
+                        <fieldset>
+                            <legend>Cartão de Crédito</legend>
+
+                            <div class="form-group">
+                                <label for="numero-cartao">Número - CVV</label>
+                                <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+                            </div>
+                        </fieldset>
+
+                        <button type="submit" class="btn btn-primary mb-3">
+                            <span class="oi oi-thumb-up"></span>
+                            Confirmar Pedido
+                        </button>
+                    </div>
+                </div>
+
+
+            </form>
+        </div><!-- fim .row-->
+    </div>
+
+
+
+
+</body>
+
+</html>
